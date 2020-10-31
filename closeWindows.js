@@ -1,6 +1,6 @@
-// This widget can handle your reminders for opening windows schedueled.
+// This widget can handle your reminders for closing windows schedueled.
 // Please keep in mind that I haven't optimised the code yet. But maybe it can help you to keep an eye on your windows to
-// minimize the Corona infection risk.
+// minimize the Corona infection risk. Script by Robin Stecher.
 
 let minutes = 5
 let titleFontSize = 22
@@ -16,7 +16,7 @@ Script.complete()
 async function manageInfoWidget() {
   let widget = new ListWidget()
   widget.backgroundColor = Color.blue()
-  let title = widget.addText(" Close".toUpperCase())
+  let title = widget.addText("🚪 Close".toUpperCase())
   title.font = Font.boldRoundedSystemFont(titleFontSize)
   widget.addSpacer()
   let description = widget.addText("✅ Erinnerung eingerichtet (schließen)")
@@ -29,7 +29,7 @@ async function manageInfoWidget() {
 async function manageHomeWidget() {
   let widget = new ListWidget()
   widget.backgroundColor = Color.blue()
-  let title = widget.addText(" Close".toUpperCase())
+  let title = widget.addText("🚪 Close".toUpperCase())
   title.font = Font.boldRoundedSystemFont(titleFontSize)
   widget.addSpacer()
   let description = widget.addText("An Fenster schließen erinnern")
