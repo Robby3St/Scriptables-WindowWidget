@@ -2,6 +2,8 @@
 
 <h2>Anwendung</h2>
 
+![alt text](https://github.com/Robby3St/Scriptables-WindowWidget/blob/main/preview.jpg?raw=true)
+
 Dieses Widget-Script ist dafür gedacht das regelmäßige Stoßlüften zu vereinfachen. Mit einem Tippen auf das Öffnen-Widget wird automatisch eine datierte Erinnerung in der "Erinnerungen"-App erstellt, die nach einer gewissen Minutenzahl gesetzt wird (Standard: 15 Minuten). Das Schließen-Widget ist standardmäßig auf 5 Minuten gesetzt. Die Zeiten können im Script mit der Variablen "minutes" individuell angepasst werden. 
 
 <h2>Installation</h2>
