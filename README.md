@@ -1,4 +1,4 @@
-# Scriptables
+# Scriptables-WindowWidget zum Stoßlüften
 
 <h2>Anwendung</h2>
 
