@@ -1,6 +1,6 @@
-// Variables used by Scriptable.
-// These must be at the very top of the file. Do not edit.
-// icon-color: purple; icon-glyph: magic;
+// The english version of the Window Widget for ventilating a room by iOS Reminders
+// Script by Robin Stecher
+
 let minutes = 5
 
 manageInfoWidget()
