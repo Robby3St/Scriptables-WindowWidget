@@ -37,12 +37,6 @@ async function manageHomeWidget() {
   return widget
 }
 
-async function getWindowIcon() {
-  let url = "https://icon-library.com/images/open-window-icon/open-window-icon-5.jpg"
-  let req = new Request(url)
-  return req.loadImage()
-}
-
 async function manageReminder() {
   let reminder = new Reminder()
   reminder.calendar = await getCalendar()
